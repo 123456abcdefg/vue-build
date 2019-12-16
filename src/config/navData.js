@@ -9,14 +9,8 @@ export const navdataa = {
     "list": [
       {
         "name": "页面1",
-        "name_en": "page_first",
-        "router": "/page_first",
-        "children": []
-      },
-      {
-        "name": "页面2",
-        "name_en": "page_second",
-        "router": "/page_second",
+        "name_en": "pageFirst",
+        "router": "/pageFirst",
         "children": []
       },
       
