@@ -5,7 +5,7 @@
  */
 <template>
   <div class="contrainer">
-    <el-button :class="buttonStyle">
+    <el-button :class="buttonStyle" @click="click">
       <slot></slot>
     </el-button>
   </div>
@@ -24,7 +24,12 @@ export default {
     return{
       
     }
-  }
+  },
+  methods: {
+    click(){
+      this.$emit('click');
+    }
+  },
 }
 </script>
 
